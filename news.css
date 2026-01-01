@@ -1,11 +1,13 @@
-*{
+/* *{
     margin: 2px;
     
-}
+} */
 .header{
     background-color: black;
     padding: 25px;
     color: beige;
+    border: solid;
+    
 
 }
 .left{
@@ -13,10 +15,14 @@
     flex-grow: 1;
     flex-shrink: 1;
     flex-basis: 50px;
+    border: solid;
+    border-color: beige;
 }
 .main{
   display: flex;
   flex: 1;
+  border: solid;
+  border-color: beige;
   /* flex-grow: 1;
     flex-shrink: 1;
     flex-basis: 50px; */
@@ -35,11 +41,15 @@
      flex-grow: 1;
     flex-shrink: 1;
     flex-basis: 50px;
+    border: solid;
+    border-color: beige;
 }
 .footer{
     background-color: black;
     padding: 25px;
     color: beige;
+    border: solid;
+    border-color: beige;
 }
 body{
     height: 100vh;
