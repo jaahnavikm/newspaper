@@ -17,6 +17,7 @@
     flex-basis: 50px;
     border: solid;
     border-color: beige;
+    list-style-type: none;
 }
 .main{
   display: flex;
@@ -43,6 +44,7 @@
     flex-basis: 50px;
     border: solid;
     border-color: beige;
+    list-style-type: none;
 }
 .footer{
     background-color: black;
